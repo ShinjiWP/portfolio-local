@@ -1,0 +1,10 @@
+@use "../global/font" as f;
+
+.c-head {
+	text-align: right;
+	color: white;
+	font-family: f.$Roboto;
+	font-weight: 900;
+	letter-spacing: 0.5px;
+}
+

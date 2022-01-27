@@ -1,0 +1,39 @@
+.c-background {
+	&--products {
+		background-image: url(../image/png/products.png);
+		width: 40%;
+		height: 100%;
+		position: absolute;
+		z-index: -1;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+	&--contact {
+		@extend .c-background--products;
+		background-image: url(../image/png/contact.png);
+	}
+	&--about {
+		@extend .c-background--products;
+		background-image: url(../image/png/about.png);
+	}
+	&--skill {
+		@extend .c-background--products;
+		background-image: url(../image/png/skill.png);
+	}
+	&--circle {
+		@extend .c-background--products;
+		background-image: url();
+		overflow: hidden;
+		width: 100%;
+		opacity: .3;
+	}
+}
+
+
+.c-image--circle {
+  animation: rotate-anime 200s linear infinite;
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}

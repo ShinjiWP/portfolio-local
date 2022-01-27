@@ -1,0 +1,95 @@
+.p-header {
+	font-size: 4rem;
+	line-height: 0.9;
+	margin: 3rem 2rem 2rem 0;
+	overflow: hidden;
+  width: 95%;
+  &--link{
+    @extend .p-header;
+    overflow: unset;
+  }
+  // margin-top: 3rem;
+
+	&__ttl {
+		transition: 0.5s;
+		&:nth-child(2) span {
+			color: #ff0000;
+			transition: 0.5s;
+		}
+
+		// &:nth-child(5) {
+		// 	position: relative;
+		// 	&::after {
+		// 		content: "";
+		// 		position: absolute;
+		// 		height: 15px;
+		// 		width: 15px;
+		// 		background-color: #00ff00;
+		// 		transition: 0.5s;
+		// 		border-radius: 50%;
+		// 		right: 38px;
+		// 	}
+		// }
+	}
+}
+
+.p-header {
+	&__ttl--skill {
+		transform: translateX(100%);
+		animation: SlideIn 1s;
+		animation-delay: 0.5s;
+		animation-fill-mode: forwards;
+	}
+  &__ttl--products{
+    @extend .p-header__ttl--skill;
+  }
+
+	&__ttl:nth-child(2) {
+		transform: translateX(100%);
+		// opacity: 0;//この辺消してコメントアウトを戻せば元通り
+		// transition: 0.5s;//この辺消してコメントアウトを戻せば元通り
+		animation: SlideIn 1s;
+		animation-delay: 5.5s;
+		animation-fill-mode: forwards;
+	}
+	&__ttl:nth-child(3) {
+		transform: translateX(100%);
+		// opacity: 0;
+		// transition: 0.5s;
+		animation: SlideIn 1s;
+		animation-delay: 5.6s;
+		animation-fill-mode: forwards;
+	}
+	&__ttl:nth-child(4) {
+		transform: translateX(100%);
+		// opacity: 0;
+		// transition: 0.5s;
+		animation: SlideIn 1s;
+		animation-delay: 5.7s;
+		animation-fill-mode: forwards;
+	}
+	&__ttl:nth-child(5) {
+		transform: translateX(100%);
+		// opacity: 0;
+		// transition: 0.5s;
+		animation: SlideIn 1s;
+		animation-delay: 5.8s;
+		animation-fill-mode: forwards;
+	}
+}
+
+@keyframes SlideIn {//ここのコメントアウトも戻せば元通り
+	from {
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.js-gray {
+	color: gray;
+	transition: 0.5s;
+}
