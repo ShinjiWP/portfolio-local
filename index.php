@@ -1,6 +1,7 @@
 <?php get_header();?>
 
-<div class="c-background--circle"><img class="c-image--circle" src="./src/image/png/circle.png" alt=""></div>
+<div class="c-background--circle"><img class="c-image--circle"
+    src="<?php echo get_theme_file_uri('/src/image/png/circle.png');?>" alt=""></div>
 <div id="wrapper" class="p-wrapper">
   <div class="c-grid__head p-header">
     <div class="p-line"></div>
