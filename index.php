@@ -13,7 +13,7 @@
 
   <div class="p-nav">
     <a data-hover="Products" class="c-text--weight c-square button js-btn1 p-nav__btn"
-      href="products.html"><span>制</span><span>作</span><span>実</span><span>績</span>
+      href="<?php echo esc_url(get_page_link(21));?>"><span>制</span><span>作</span><span>実</span><span>績</span>
       <div class="c-hover--btn1"></div>
     </a>
     <a data-hover="Contact" class="c-text--weight c-square button js-btn2 p-nav__btn"

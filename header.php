@@ -18,7 +18,4 @@
   <!-- <div class=" loading">
   <p class="load-text anim-typewriter c-text--large c-text--weight c-text--underline">Portfolio</p>
   </div> -->
-  <div id="particles-js-white"></div>
-  <div id="particles-js-green"></div>
-  <div id="particles-js-red"></div>
-  <div id="content"></div>
+  <?php get_template_part('includes/background');?>
