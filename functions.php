@@ -1,4 +1,14 @@
 <?php
+//テーマサポート=管理画面で操作できる項目を増やせる
+add_theme_support('menus');
+add_theme_support('title-tag');
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'html5', array( 'search-form' ) );
+
+//メニュー位置管理（テーマの位置）
+register_nav_menu( 'header-nav', ' ヘッダーナビゲーション ' );
+register_nav_menu( 'footer-nav', ' フッターナビゲーション ' );
+register_nav_menu( 'side-nav', 'サイドナビゲーション');
 
 function add_files(){ wp_enqueue_style('style',get_theme_file_uri().'/style.css',array());
 wp_enqueue_style('main-style',get_theme_file_uri().'/src/css/style.css',array());
