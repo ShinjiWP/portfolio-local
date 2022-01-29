@@ -17,15 +17,15 @@
       <div class="c-hover--btn1"></div>
     </a>
     <a data-hover="Contact" class="c-text--weight c-square button js-btn2 p-nav__btn"
-      href="contact.html"><span>問</span><span>い</span><span>合</span><span>わ</span><span>せ</span>
+      href="<?php the_permalink(54); ?>"><span>問</span><span>い</span><span>合</span><span>わ</span><span>せ</span>
       <div class="c-hover--btn2"></div>
     </a>
     <a data-hover="About" class="c-text--weight c-square button js-btn3 p-nav__btn"
-      href="#"><span>私</span><span>に</span><span>つ</span><span>い</span><span>て</span>
+      href="<?php the_permalink(48); ?>"><span>私</span><span>に</span><span>つ</span><span>い</span><span>て</span>
       <div class="c-hover--btn3"></div>
     </a>
     <a data-hover="Skill" class="c-text--weight c-square button js-btn4 p-nav__btn"
-      href="skill.html"><span>ス</span><span>キ</span><span>ル</span>
+      href="<?php the_permalink(16); ?>"><span>ス</span><span>キ</span><span>ル</span>
       <div class="c-hover--btn4"></div>
     </a>
   </div>
