@@ -1,9 +1,10 @@
 .p-header {
 	font-size: 4rem;
 	line-height: 0.9;
-	margin: 3rem 2rem 2rem 0;
+	margin: 3.5rem 2rem 2rem 0;
 	overflow: hidden;
   width: 95%;
+	// position: relative;
   &--link{
     @extend .p-header;
     overflow: unset;
@@ -49,7 +50,7 @@
 		// opacity: 0;//この辺消してコメントアウトを戻せば元通り
 		// transition: 0.5s;//この辺消してコメントアウトを戻せば元通り
 		animation: SlideIn 1s;
-		animation-delay: 5.5s;
+		animation-delay: 1.5s;
 		animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(3) {
@@ -57,7 +58,7 @@
 		// opacity: 0;
 		// transition: 0.5s;
 		animation: SlideIn 1s;
-		animation-delay: 5.6s;
+		animation-delay: 1.6s;
 		animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(4) {
@@ -65,7 +66,7 @@
 		// opacity: 0;
 		// transition: 0.5s;
 		animation: SlideIn 1s;
-		animation-delay: 5.7s;
+		animation-delay: 1.7s;
 		animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(5) {
@@ -73,7 +74,7 @@
 		// opacity: 0;
 		// transition: 0.5s;
 		animation: SlideIn 1s;
-		animation-delay: 5.8s;
+		animation-delay: 1.8s;
 		animation-fill-mode: forwards;
 	}
 }

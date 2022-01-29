@@ -62,13 +62,13 @@ jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").on("mouseout", function () {
 	jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").removeClass("js-filter");
 });
 
-$(".p-nav__btn").on("click", function () {
-	event.preventDefault();
-	var link = $(this).attr("href");
-	setTimeout(function () {
-		location.href = link;
-	}, 1500);
-});
+// $(".p-nav__btn").on("click", function () {
+// 	event.preventDefault();
+// 	var link = $(this).attr("href");
+// 	setTimeout(function () {
+// 		location.href = link;
+// 	}, 500);
+// });
 
 $(".load-text").fadeOut(5000, function () {
 	$(".loading").toggleClass("open"); //←ここだけ残せば初期使用でローディングと分離できる

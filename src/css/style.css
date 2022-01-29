@@ -815,7 +815,7 @@ body {
 .p-header, .p-header--link {
   font-size: 4rem;
   line-height: 0.9;
-  margin: 3rem 2rem 2rem 0;
+  margin: 3.5rem 2rem 2rem 0;
   overflow: hidden;
   width: 95%;
 }
@@ -843,8 +843,8 @@ body {
   transform: translateX(100%);
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 5.5s;
-          animation-delay: 5.5s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -852,8 +852,8 @@ body {
   transform: translateX(100%);
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 5.6s;
-          animation-delay: 5.6s;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -861,8 +861,8 @@ body {
   transform: translateX(100%);
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 5.7s;
-          animation-delay: 5.7s;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -870,8 +870,8 @@ body {
   transform: translateX(100%);
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 5.8s;
-          animation-delay: 5.8s;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -915,8 +915,8 @@ body {
   /*線の動き*/
   -webkit-animation: line 0.5s ease-in-out forwards;
           animation: line 0.5s ease-in-out forwards;
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   opacity: 0;
   z-index: 80;
 }
