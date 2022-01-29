@@ -22,4 +22,17 @@ wp_enqueue_script('assets-script',get_theme_file_uri().'/src/js/assets/scripts.j
 }
 add_action ('wp_enqueue_scripts','add_files');
 
+//wp_nav_menuのidとclass名を削除//wp_nav_menuのidとclass名を削除
+// クラス名を削除
+function remove_nav_class($class) {
+    return $class = array();
+}
+
+add_filter("nav_menu_css_class", "remove_nav_class");
+
+// id名を削除
+function remove_nav_id($id) {
+    return $id = array();
+}
+
 ?>

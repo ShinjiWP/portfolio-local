@@ -1,15 +1,18 @@
+<?php
+/*
+Template Name: contact
+*/
+?>
+
 <?php get_header();?>
-
-
-<div class="c-background--products"></div>
+<div class="c-background--contact"></div>
+<div id="content"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
-    <p class="c-text--ttl c-head p-header__ttl--products"><span>P</span>roducts</p>
+    <p class="c-text--ttl c-head p-header__ttl">Contact</p>
   </div>
-  <div class="p-products">
-    <div class="c-square p-products__link"><a href="https://hamburger.manstandsup.com/"><?php the_title();?></a>
-    </div>
-    <div class="c-square p-products__link"><a href="https://dininglist.manstandsup.com/">案件予定だった1枚物のページ掲載予定</a></div>
+  <div class="c-square p-contact">
+    <?php the_content(); ?>
   </div>
   <div class="p-nav--link">
     <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">
