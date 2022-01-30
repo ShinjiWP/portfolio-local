@@ -14,6 +14,7 @@
 // 	jQuery(".p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(2)").toggleClass("js-gray");
 // });
 
+
 jQuery(".c-hover--btn1").on("mouseenter", function () {
 	jQuery(
 		".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)"

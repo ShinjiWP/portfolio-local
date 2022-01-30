@@ -1,10 +1,9 @@
 <?php
 /*
-Template Name: archive
+Template Name: products
 */
 ?>
 <?php get_header();?>
-
 
 <div class="c-background--products"></div>
 <div id="wrapper" class="p-wrapper">
@@ -13,12 +12,23 @@ Template Name: archive
   </div>
 
   <div class="p-products">
-    <div class="c-square p-products__link">
-      <?php the_post();?>
-      <?php the_title();?>
+    <?php
+global $post;
+$args = array( 'posts_per_page' => 8 );
+$myposts = get_posts( $args );
+foreach( $myposts as $post ) {
+   setup_postdata($post);
+   ?>
+    <div class="p-products__item">
+      <div class="c-square p-products__link">
+        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+      </div>
     </div>
+    <?php
+}
+wp_reset_postdata();
+?>
   </div>
-
   <div class="p-nav--link">
     <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">
       <p>Contact</p>

@@ -3,19 +3,19 @@
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 20px;
 	width: 80%;
-	max-width: 1000px;
+	max-width: 2000px;
 	margin: auto;
+
 	&__link {
 		background-color: rgba(255, 255, 255, 0.9);
 		height: 300px;
 		width: 100%;
 		position: relative;
-		& a{
+		& a {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
-
 		}
 	}
 }
