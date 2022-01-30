@@ -13,21 +13,30 @@ Template Name: products
 
   <div class="p-products">
     <?php
-global $post;
-$args = array( 'posts_per_page' => 8 );
-$myposts = get_posts( $args );
-foreach( $myposts as $post ) {
-   setup_postdata($post);
-   ?>
+	$wp_query = new WP_Query();
+	$my_posts = array(
+		'post_type' => 'post', //カテゴリは特定せず
+		'posts_per_page'=> '100', //とりあえず100件
+	);
+	$wp_query->query( $my_posts );
+	if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
+?>
+
     <div class="p-products__item">
       <div class="c-square p-products__link">
-        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+
+        <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
+
+        <div class="c-square p-products__description">
+          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+          <p><?php the_content();?></p>
+        </div>
+
       </div>
     </div>
-    <?php
-}
-wp_reset_postdata();
-?>
+
+    <?php endwhile; endif; wp_reset_postdata(); ?>
+
   </div>
   <div class="p-nav--link">
     <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">

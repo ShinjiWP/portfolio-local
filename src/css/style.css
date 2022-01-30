@@ -988,13 +988,18 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   height: 300px;
   width: 100%;
-  position: relative;
+  display: grid;
+  grid-template: "products";
 }
-.p-products__link a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.p-products__thumbnail {
+  grid-area: products;
+  margin: auto;
+}
+.p-products__description {
+  grid-area: products;
+  margin: auto auto 0;
+  padding: 1rem;
+  background-color: #fff;
 }
 
 .p-skill {

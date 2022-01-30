@@ -10,12 +10,19 @@
 		background-color: rgba(255, 255, 255, 0.9);
 		height: 300px;
 		width: 100%;
-		position: relative;
-		& a {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
+		display: grid;
+		grid-template: "products";
+	}
+	&__thumbnail {
+		grid-area: products;
+		margin: auto;
+	}
+
+	&__description {
+		grid-area: products;
+		// width: 90%;
+		margin: auto auto 0;
+		padding: 1rem;
+		background-color: #fff;
 	}
 }
