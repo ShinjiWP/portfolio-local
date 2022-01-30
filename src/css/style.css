@@ -952,7 +952,7 @@ body {
   gap: 20px;
   width: 65%;
   max-width: 1300px;
-  margin: auto auto 0;
+  margin: auto;
 }
 .p-nav__btn {
   width: 100%;
