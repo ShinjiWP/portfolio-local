@@ -5,7 +5,7 @@
 	font-size: f.$text-normal;
 	color: c.$font-white;
 	font-family: f.$Roboto;
-	
+
 	&--ttl {
 		@extend .c-text;
 		font-size: f.$text-max;
@@ -31,4 +31,12 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 	}
+
+	&--link {
+		@extend .c-text--small;
+		color: c.$font-gray;
+		text-align: justify;
+	}
+
+	
 }

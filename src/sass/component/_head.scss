@@ -1,4 +1,5 @@
 @use "../global/font" as f;
+@use "../global/color" as c;
 
 .c-head {
 	text-align: right;
@@ -6,5 +7,8 @@
 	font-family: f.$Roboto;
 	font-weight: 900;
 	letter-spacing: 0.5px;
+	&--products {
+		@extend .c-head;
+		color: c.$font-gray;
+	}
 }
-

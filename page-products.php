@@ -22,23 +22,24 @@ Template Name: products
 	if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
 ?>
 
-    <div class="p-products__item">
-      <div class="c-square p-products__link">
+    <a class="c-text--link" href=" <?php the_permalink(); ?>">
+      <div class="p-products__item">
+        <div class=" c-square p-products__link">
 
-        <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
+          <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
 
-        <div class="c-square p-products__description">
-          <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-          <p><?php the_content();?></p>
+          <div class="c-square p-products__description">
+            <h2 class="c-head--products"><?php the_title(); ?></h2>
+            <?php the_content();?>
+          </div>
+
         </div>
-
       </div>
-    </div>
 
-    <?php endwhile; endif; wp_reset_postdata(); ?>
-
+      <?php endwhile; endif; wp_reset_postdata(); ?>
+    </a>
   </div>
-  <div class="p-nav--link">
+  <div class=" p-nav--link">
     <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">
       <p>Contact</p>
     </a>

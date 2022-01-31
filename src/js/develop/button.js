@@ -62,3 +62,4 @@ jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").on("mouseout", function () {
 	jQuery(".p-header__ttl:nth-child(2) span").css({ color: "#ff0000" });
 	jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").removeClass("js-filter");
 });
+

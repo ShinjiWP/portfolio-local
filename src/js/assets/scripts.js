@@ -63,6 +63,7 @@ jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").on("mouseout", function () {
 	jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").removeClass("js-filter");
 });
 
+
 // $(".p-nav__btn").on("click", function () {
 // 	event.preventDefault();
 // 	var link = $(this).attr("href");

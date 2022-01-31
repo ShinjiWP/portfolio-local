@@ -79,6 +79,7 @@ pre {
  */
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -622,12 +623,15 @@ body {
   transition: 0.5s;
 }
 
-.c-head {
+.c-head, .c-head--products {
   text-align: right;
   color: white;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   letter-spacing: 0.5px;
+}
+.c-head--products {
+  color: #707070;
 }
 
 .c-hover--btn1, .c-hover--btn2, .c-hover--btn3, .c-hover--btn4 {
@@ -772,7 +776,7 @@ body {
   border-radius: 10px;
 }
 
-.c-text, .c-text--large, .c-text--small, .c-text--ttl {
+.c-text, .c-text--large, .c-text--small, .c-text--link, .c-text--ttl {
   font-size: 1.3rem;
   color: #eeeeee;
   font-family: "Roboto", sans-serif;
@@ -780,7 +784,7 @@ body {
 .c-text--ttl {
   font-size: 4rem;
 }
-.c-text--small {
+.c-text--small, .c-text--link {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -795,6 +799,10 @@ body {
 .c-text--weight {
   font-weight: 700;
   letter-spacing: 0.1em;
+}
+.c-text--link {
+  color: #707070;
+  text-align: justify;
 }
 
 .p-contact {
