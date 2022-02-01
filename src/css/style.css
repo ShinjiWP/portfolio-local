@@ -515,7 +515,7 @@ body {
   border-radius: 1px;
 }
 
-.c-button {
+.c-button, .c-button--red {
   position: relative;
   display: inline-block;
   border: 2px solid #fff;
@@ -525,12 +525,16 @@ body {
   outline: none;
   overflow: hidden;
 }
-.c-button:hover {
+.c-button:hover, .c-button--red:hover {
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
 }
+.c-button--red {
+  border-color: red;
+  background: rgba(255, 0, 0, 0.5);
+}
 
-.c-button span {
+.c-button span, .c-button--red span {
   display: inline-block;
   transform: translate3d(0, -10px, 0);
   transition: transform 0.4s, opacity 0.4s;
@@ -538,7 +542,7 @@ body {
   opacity: 0;
 }
 
-.c-button::before {
+.c-button::before, .c-button--red::before {
   position: absolute;
   display: inline-block;
   width: 100%;
@@ -553,45 +557,45 @@ body {
   box-sizing: border-box;
 }
 
-.c-button:hover::before {
+.c-button:hover::before, .c-button--red:hover::before {
   transform: translate3d(0, 50%, 0);
   opacity: 0;
 }
 
-.c-button:hover span {
+.c-button:hover span, .c-button--red:hover span {
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 
-.c-button:hover span:nth-child(1) {
+.c-button:hover span:nth-child(1), .c-button--red:hover span:nth-child(1) {
   transition-delay: 0.08s;
 }
 
-.c-button:hover span:nth-child(2) {
+.c-button:hover span:nth-child(2), .c-button--red:hover span:nth-child(2) {
   transition-delay: 0.16s;
 }
 
-.c-button:hover span:nth-child(3) {
+.c-button:hover span:nth-child(3), .c-button--red:hover span:nth-child(3) {
   transition-delay: 0.24s;
 }
 
-.c-button:hover span:nth-child(4) {
+.c-button:hover span:nth-child(4), .c-button--red:hover span:nth-child(4) {
   transition-delay: 0.32s;
 }
 
-.c-button:hover span:nth-child(5) {
+.c-button:hover span:nth-child(5), .c-button--red:hover span:nth-child(5) {
   transition-delay: 0.4s;
 }
 
-.c-button:hover span:nth-child(6) {
+.c-button:hover span:nth-child(6), .c-button--red:hover span:nth-child(6) {
   transition-delay: 0.48s;
 }
 
-.c-button:hover span:nth-child(7) {
+.c-button:hover span:nth-child(7), .c-button--red:hover span:nth-child(7) {
   transition-delay: 0.56s;
 }
 
-.c-button:hover span:nth-child(8) {
+.c-button:hover span:nth-child(8), .c-button--red:hover span:nth-child(8) {
   transition-delay: 0.64s;
 }
 
@@ -790,7 +794,7 @@ body {
 }
 
 .p-contact {
-  margin: auto;
+  margin: 1rem auto;
   background-color: rgba(255, 255, 255, 0.9);
   width: 80%;
   max-width: 800px;
@@ -964,7 +968,7 @@ body {
 .p-nav--top-link {
   width: 20%;
   max-width: 200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .p-page__img {
@@ -1033,7 +1037,7 @@ body {
 
 .snow-monkey-form {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .smf-item {

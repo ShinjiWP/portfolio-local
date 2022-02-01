@@ -22,7 +22,7 @@ Template Name: products
 	if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
 ?>
 
-    <a class="c-text--link" href=" <?php the_permalink(); ?>">
+    <a class="c-text--link" href="<?php echo get_field('url'); ?>">
       <div class="p-products__item">
         <div class=" c-square p-products__link">
 
