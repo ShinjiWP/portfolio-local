@@ -9,7 +9,7 @@ Template Name: contact
 <div id="content"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
-    <p class="c-text--ttl c-head p-header__ttl">Contact</p>
+    <p class="c-text--ttl c-head p-header__ttl--slide">Contact</p>
   </div>
   <div class="c-square p-contact">
     <?php the_content(); ?>

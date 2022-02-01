@@ -9,7 +9,7 @@ Template Name: skill
 <div id="content"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
-    <p class="c-text--ttl c-head p-header__ttl--skill"><span class="c-dot"></span>Skill</p>
+    <p class="c-text--ttl c-head p-header__ttl--slide"><span class="c-dot"></span>Skill</p>
   </div>
   <div class="p-skill">
     <div class="p-skill__card">

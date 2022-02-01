@@ -8,7 +8,7 @@ Template Name: products
 <div class="c-background--products"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
-    <p class="c-text--ttl c-head p-header__ttl--products"><span>P</span>roducts</p>
+    <p class="c-text--ttl c-head p-header__ttl--slide"><span>P</span>roducts</p>
   </div>
 
   <div class="p-products">

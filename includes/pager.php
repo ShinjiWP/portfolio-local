@@ -10,7 +10,7 @@ get_template_part('includes/pager-skill');
 };?>
 
 <div class="p-nav--top-link">
-  <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">
+  <a class="c-text--weight c-square c-button js-btn2 p-nav__btn" href="<?php echo esc_url(home_url()); ?>">
     <p>Home</p>
   </a>
 </div>

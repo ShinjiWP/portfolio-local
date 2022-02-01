@@ -12,19 +12,19 @@
   </div>
 
   <div class="p-nav">
-    <a data-hover="Products" class="c-text--weight c-square button js-btn1 p-nav__btn"
+    <a data-hover="Products" class="c-text--weight c-square c-button js-btn1 p-nav__btn"
       href="<?php the_permalink(58); ?>"><span>制</span><span>作</span><span>実</span><span>績</span>
       <div class="c-hover--btn1"></div>
     </a>
-    <a data-hover="Contact" class="c-text--weight c-square button js-btn2 p-nav__btn"
+    <a data-hover="Contact" class="c-text--weight c-square c-button js-btn2 p-nav__btn"
       href="<?php the_permalink(54); ?>"><span>問</span><span>い</span><span>合</span><span>わ</span><span>せ</span>
       <div class="c-hover--btn2"></div>
     </a>
-    <a data-hover="About" class="c-text--weight c-square button js-btn3 p-nav__btn"
+    <a data-hover="About" class="c-text--weight c-square c-button js-btn3 p-nav__btn"
       href="<?php the_permalink(48); ?>"><span>私</span><span>に</span><span>つ</span><span>い</span><span>て</span>
       <div class="c-hover--btn3"></div>
     </a>
-    <a data-hover="Skill" class="c-text--weight c-square button js-btn4 p-nav__btn"
+    <a data-hover="Skill" class="c-text--weight c-square c-button js-btn4 p-nav__btn"
       href="<?php the_permalink(16); ?>"><span>ス</span><span>キ</span><span>ル</span>
       <div class="c-hover--btn4"></div>
     </a>
