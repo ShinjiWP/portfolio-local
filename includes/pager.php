@@ -9,8 +9,8 @@ get_template_part('includes/pager-products');
 get_template_part('includes/pager-skill');
 };?>
 
-
-<!-- <?php if(is_page_template('products')){
-  get_template_part('includes/pager-products');
-
-};?> -->
+<div class="p-nav--top-link">
+  <a class="c-text--weight c-square button js-btn2 p-nav__btn" href="contact.html">
+    <p>Home</p>
+  </a>
+</div>

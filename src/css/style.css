@@ -972,11 +972,15 @@ body {
 }
 .p-nav--link {
   display: flex;
-  justify-content: center;
   gap: 1rem;
-  margin: 2rem auto;
+  margin: 1.5rem auto 1rem;
   width: 80%;
   max-width: 700px;
+}
+.p-nav--top-link {
+  width: 20%;
+  max-width: 200px;
+  margin: auto;
 }
 
 .p-page__img {
