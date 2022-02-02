@@ -628,6 +628,8 @@ body {
 }
 .c-head--products {
   color: #707070;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .c-hover--btn1, .c-hover--btn2, .c-hover--btn3, .c-hover--btn4 {
