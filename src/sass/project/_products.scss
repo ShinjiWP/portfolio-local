@@ -12,6 +12,8 @@
 		width: 100%;
 		display: grid;
 		grid-template: "products";
+		max-width: 450px;
+		margin: auto;
 	}
 	&__thumbnail {
 		grid-area: products;

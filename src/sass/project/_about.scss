@@ -1,5 +1,18 @@
-.p-about{
-  width: 90%;
-  padding: 2rem;
-margin: auto;
+.p-about {
+	width: 90%;
+	padding: 2rem;
+	margin: auto;
+  max-width: 480px;
+  text-align: justify;
+	&__thumbnail {
+    display: block;
+		width: 150px;
+    height: 150px;
+    margin:0 auto 1rem;
+    border-radius: 10px;
+	}
+  &__description{
+    padding: 1rem;
+    background-color: #fff;
+  }
 }
