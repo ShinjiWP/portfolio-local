@@ -11,6 +11,11 @@ Template Name: about
   <div class="p-header--link">
     <p class="c-text--ttl c-head p-header__ttl--slide">About</p>
   </div>
+
+  <div class="c-square c-bgc--white p-about">
+    <?php the_post_thumbnail('thumbnail', array("class" => "p-about__thumbnail")) ;?>
+    <?php the_content(); ?>
+  </div>
   <?php get_template_part('includes/pager');?>
 
   <?php get_template_part('includes/footer');?>

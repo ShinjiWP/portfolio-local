@@ -11,7 +11,7 @@ Template Name: contact
   <div class="p-header--link">
     <p class="c-text--ttl c-head p-header__ttl--slide">Contact</p>
   </div>
-  <div class="c-square p-contact">
+  <div class="c-square c-bgc--white p-contact">
     <?php the_content(); ?>
   </div>
   <?php get_template_part('includes/pager');?>

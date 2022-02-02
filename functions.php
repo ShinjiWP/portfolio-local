@@ -2,7 +2,7 @@
 //テーマサポート=管理画面で操作できる項目を増やせる
 add_theme_support('menus');
 add_theme_support('title-tag');
-add_theme_support( 'post-thumbnails' );
+add_theme_support('post-thumbnails');
 add_theme_support( 'html5', array( 'search-form' ) );
 
 //メニュー位置管理（テーマの位置）
@@ -36,11 +36,3 @@ function remove_nav_id($id) {
 }
 
 ?>
-
-<!-- <?php 
-    $content_string = get_the_content();
-    $content_string = str_replace('<p','<p class="c-text--link" ',$content_string);
-    $content_string = str_replace('<h2','<h2 class="classname" ',$content_string);
-    $content_string = str_replace('<h3','<h3 class="classname" ',$content_string);
-    echo $content_string;
- ?> -->

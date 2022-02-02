@@ -485,6 +485,10 @@ body {
   border-color: #dfdfdf;
 }
 
+.c-bgc--white {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 .c-bg--green {
   background-color: #75ce75;
 }
@@ -793,9 +797,14 @@ body {
   text-align: justify;
 }
 
+.p-about {
+  width: 90%;
+  padding: 2rem;
+  margin: auto;
+}
+
 .p-contact {
   margin: 1rem auto;
-  background-color: rgba(255, 255, 255, 0.9);
   width: 80%;
   max-width: 800px;
   display: flex;
@@ -997,6 +1006,7 @@ body {
 }
 .p-products__description {
   grid-area: products;
+  width: 100%;
   margin: auto auto 0;
   padding: 1rem;
   background-color: #fff;
