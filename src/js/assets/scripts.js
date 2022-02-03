@@ -69,7 +69,7 @@ $(".p-nav__btn").on("click", function () {
 	var link = $(this).attr("href");
 	setTimeout(function () {
 		location.href = link;
-	}, 600);
+	}, 850);
 });
 
 $(".load-text").fadeOut(5000, function () {
