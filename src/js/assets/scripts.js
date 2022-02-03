@@ -64,13 +64,13 @@ jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").on("mouseout", function () {
 });
 
 
-// $(".p-nav__btn").on("click", function () {
-// 	event.preventDefault();
-// 	var link = $(this).attr("href");
-// 	setTimeout(function () {
-// 		location.href = link;
-// 	}, 500);
-// });
+$(".p-nav__btn").on("click", function () {
+	event.preventDefault();
+	var link = $(this).attr("href");
+	setTimeout(function () {
+		location.href = link;
+	}, 600);
+});
 
 $(".load-text").fadeOut(5000, function () {
 	$(".loading").toggleClass("open"); //←ここだけ残せば初期使用でローディングと分離できる
@@ -104,3 +104,8 @@ $(".load-text").fadeOut(5000, function () {
 // 		alert(document.referrer);
 // 	}
 // };
+window.onpageshow = function (event) {
+	if (event.persisted) {
+		window.location.reload();
+	}
+};
