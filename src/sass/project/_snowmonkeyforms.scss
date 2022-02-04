@@ -1,7 +1,20 @@
-.snow-monkey-form{
-  margin: auto;
-  width: 90%;
+.snow-monkey-form {
+	margin: auto;
+	width: 90%;
 }
-.smf-item{
-  align-items: baseline;
+.smf-item {
+	align-items: baseline;
 }
+
+//戻る　送信するボタンのスタイル
+.smf-action .smf-button-control .smf-button-control__control {
+	padding-left: 2ch;
+	padding-right: 2ch;
+}
+
+// //確認画面のお問い合わせ内容ボックスのスタイル
+// .smf-placeholder{
+//   word-wrap:break-word;
+//   max-height: 150px;
+//   overflow: scroll;
+// }

@@ -1080,6 +1080,11 @@ body {
   align-items: baseline;
 }
 
+.smf-action .smf-button-control .smf-button-control__control {
+  padding-left: 2ch;
+  padding-right: 2ch;
+}
+
 .p-wrapper {
   height: 100%;
   overflow-x: hidden;
