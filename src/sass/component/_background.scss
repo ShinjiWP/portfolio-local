@@ -1,12 +1,13 @@
 .c-background {
 	&--products {
 		background-image: url(../image/png/products.png);
-		width: 40%;
+		width: 50%;
 		height: 100%;
 		position: absolute;
 		z-index: -1;
 		background-repeat: no-repeat;
 		background-size: contain;
+		overflow: hidden
 	}
 	&--contact {
 		@extend .c-background--products;

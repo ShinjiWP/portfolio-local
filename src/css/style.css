@@ -377,12 +377,13 @@ p {
 
 .c-background--products, .c-background--circle, .c-background--skill, .c-background--about, .c-background--contact {
   background-image: url(../image/png/products.png);
-  width: 40%;
+  width: 50%;
   height: 100%;
   position: absolute;
   z-index: -1;
   background-repeat: no-repeat;
   background-size: contain;
+  overflow: hidden;
 }
 .c-background--contact {
   background-image: url(../image/png/contact.png);
