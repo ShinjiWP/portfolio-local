@@ -8,7 +8,7 @@ Template Name: about
 <div class="c-background--about"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
-    <p class="c-text--ttl c-head p-header__ttl--slide">About</p>
+    <p class="c-text--ttl c-head p-header__ttl--slide">About&thinsp;</p>
   </div>
 
   <div class="c-square c-bgc--white p-about">

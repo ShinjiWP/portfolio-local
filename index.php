@@ -5,10 +5,10 @@
 <div id="wrapper" class="p-wrapper">
   <div class="c-grid__head p-header">
     <div class="p-line"></div>
-    <p class="c-text--ttl c-head p-header__ttl"><span>P</span>roducts</p>
-    <p class="c-text--ttl c-head p-header__ttl">Contact</p>
-    <p class="c-text--ttl c-head p-header__ttl">About</p>
-    <p class="c-text--ttl c-head p-header__ttl"><span class="c-dot"></span>Skill</p>
+    <p class="c-text--ttl c-head p-header__ttl"><span>P</span>roducts&thinsp;</p>
+    <p class="c-text--ttl c-head p-header__ttl">Contact&thinsp;</p>
+    <p class="c-text--ttl c-head p-header__ttl">About&thinsp;</p>
+    <p class="c-text--ttl c-head p-header__ttl"><span class="c-dot"></span>Skill&thinsp;</p>
   </div>
 
   <div class="p-nav">
