@@ -990,7 +990,8 @@ body {
   transition: 0.5s;
 }
 .p-nav__btn p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 .p-nav__btn > span {
   color: #eeeeee;
