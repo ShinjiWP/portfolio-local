@@ -28,7 +28,7 @@ Template Name: products
 
           <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
 
-          <div class="c-square p-products__description">
+          <div class="c-square--bottom p-products__description">
             <h2 class="c-head--products"><?php the_title(); ?></h2>
             <?php the_content();?>
           </div>

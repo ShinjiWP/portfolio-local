@@ -773,6 +773,9 @@ body {
 .c-square {
   border-radius: 10px;
 }
+.c-square--bottom {
+  border-radius: 0 0 10px 10px;
+}
 
 .c-text, .c-text--large, .c-text--small, .c-text--link, .c-text--ttl {
   font-size: 1.3rem;
@@ -1012,7 +1015,7 @@ body {
 
 .p-products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
   width: 80%;
   max-width: 2000px;
