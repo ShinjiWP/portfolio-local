@@ -11,4 +11,7 @@
     href="<?php echo esc_url(get_page_link(48)); ?>">
     <p>About</p>
   </a>
+  <a class="c-text--weight c-square c-button--breadcrumbs p-nav__btn">
+    <p>Skill</p>
+  </a>
 </div>

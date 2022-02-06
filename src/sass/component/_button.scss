@@ -17,9 +17,25 @@
 		&:hover {
 			background-color: white;
 			box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
-			color: black
+			color: black;
 		}
 	}
+
+	&--breadcrumbs {
+		position: relative;
+		display: inline-block;
+		border: 2px solid #fff;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		overflow: hidden;
+		background-color: white;
+		// box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+		color: black;
+		pointer-events: none;
+	}
+
 	&--red {
 		@extend .c-button;
 		border-color: red;

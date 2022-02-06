@@ -7,6 +7,9 @@
     href="<?php echo esc_url(get_page_link(54)); ?>">
     <p>Contact</p>
   </a>
+  <a class="c-text--weight c-square c-button--breadcrumbs p-nav__btn">
+    <p>About</p>
+  </a>
   <a class="c-text--weight c-square c-button--white js-btn4 p-nav__btn"
     href="<?php echo esc_url(get_page_link(16)); ?>">
     <p>Skill</p>

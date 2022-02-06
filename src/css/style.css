@@ -533,6 +533,19 @@ body {
   box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
   color: black;
 }
+.c-button--breadcrumbs {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  pointer-events: none;
+}
 .c-button--red {
   border-color: red;
   background: rgba(255, 0, 0, 0.5);
@@ -986,7 +999,7 @@ body {
 }
 .p-nav__btn {
   width: 100%;
-  padding: 0.5em 1em;
+  padding: 0.5em 0;
   transition: 0.5s;
 }
 .p-nav__btn p {
