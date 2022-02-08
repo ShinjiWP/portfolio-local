@@ -1063,6 +1063,7 @@ body {
   width: 80%;
   margin: 0 auto;
   height: auto;
+  max-width: 1500px;
 }
 .p-skill__card {
   background-color: rgba(255, 255, 255, 0.9);
@@ -1085,8 +1086,10 @@ body {
   align-items: center;
 }
 .p-skill__description {
-  margin: 1rem 1rem 2rem;
+  margin: 1rem 1.5rem 2rem;
   text-align: justify;
+  line-height: 1.4;
+  letter-spacing: 1.2px;
 }
 
 .snow-monkey-form {
