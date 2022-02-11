@@ -11,6 +11,10 @@
     <p class="c-text--ttl c-head p-header__ttl"><span class="c-dot"></span>Skill&thinsp;</p>
   </div>
 
+
+  <div class="p-front-page">
+    <img class="p-front-page__gif" src=" <?php echo get_theme_file_uri('/src/image/gif/portfolio.gif');?>" alt="">
+  </div>
   <div class="p-nav">
     <a data-hover="Products" class="c-text--weight c-square c-button js-btn1 p-nav__btn"
       href="<?php the_permalink(58); ?>"><span>制</span><span>作</span><span>実</span><span>績</span>
