@@ -1,9 +1,8 @@
 @use "../global/breakpoint" as bp;
 
 .p-front-page {
-	display: none;
 	margin: auto;
-	@include bp.tab {
-		display: block;
-	}
+  &__gif{
+    width: 100%;
+  }
 }
