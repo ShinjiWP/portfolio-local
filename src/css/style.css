@@ -855,10 +855,12 @@ body {
 }
 
 .p-front-page {
+  display: flex;
+  justify-content: center;
   margin: auto;
 }
 .p-front-page__gif {
-  width: 100%;
+  width: 90%;
 }
 
 .p-header, .p-header--link {

@@ -1,8 +1,10 @@
 @use "../global/breakpoint" as bp;
 
 .p-front-page {
+  display: flex;
+  justify-content: center;
 	margin: auto;
   &__gif{
-    width: 100%;
+    width: 90%;
   }
 }
