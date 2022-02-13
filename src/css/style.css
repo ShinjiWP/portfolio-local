@@ -862,6 +862,11 @@ body {
 .p-front-page__gif {
   width: 90%;
 }
+@media screen and (min-width: 600px) {
+  .p-front-page__gif {
+    width: 100%;
+  }
+}
 
 .p-header, .p-header--link {
   font-size: 4rem;
@@ -1071,7 +1076,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
   height: auto;
   max-width: 1500px;
 }
