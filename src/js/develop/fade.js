@@ -2,7 +2,7 @@
 // 
 // });
 
-$(".p-loading").delay(10000).queue(function (next) {
-	$(this).addClass("loaded");
-	next();
-});
+// $(".p-loading").delay(10000).queue(function (next) {
+// 	$(this).addClass("loaded");
+// 	next();
+// });

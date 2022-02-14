@@ -883,39 +883,15 @@ body {
 }
 .p-header__ttl:nth-child(2) {
   transform: translateX(100%);
-  -webkit-animation: SlideIn 1s;
-          animation: SlideIn 1s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 .p-header__ttl:nth-child(3) {
   transform: translateX(100%);
-  -webkit-animation: SlideIn 1s;
-          animation: SlideIn 1s;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 .p-header__ttl:nth-child(4) {
   transform: translateX(100%);
-  -webkit-animation: SlideIn 1s;
-          animation: SlideIn 1s;
-  -webkit-animation-delay: 1.7s;
-          animation-delay: 1.7s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 .p-header__ttl:nth-child(5) {
   transform: translateX(100%);
-  -webkit-animation: SlideIn 1s;
-          animation: SlideIn 1s;
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes SlideIn {
@@ -944,8 +920,44 @@ body {
   transition: 0.5s;
 }
 
+.js-header2 {
+  -webkit-animation: SlideIn 1s;
+          animation: SlideIn 1s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.js-header3 {
+  -webkit-animation: SlideIn 1s;
+          animation: SlideIn 1s;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.js-header4 {
+  -webkit-animation: SlideIn 1s;
+          animation: SlideIn 1s;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.js-header5 {
+  -webkit-animation: SlideIn 1s;
+          animation: SlideIn 1s;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 /* 線の描写 */
-.p-line {
+.line-start {
   content: "";
   /*描画位置*/
   position: absolute;
