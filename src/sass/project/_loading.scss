@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   &__gif{
     width: fit-content;
     height: fit-content;
