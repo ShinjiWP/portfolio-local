@@ -64,7 +64,7 @@ jQuery(".js-btn1,.js-btn2,.js-btn3,.js-btn4").on("mouseout", function () {
 });
 
 
-$(".p-nav__btn").on("click", function () {
+jQuery(".p-nav__btn").on("click", function () {
 	event.preventDefault();
 	var link = $(this).attr("href");
 	setTimeout(function () {
@@ -72,29 +72,41 @@ $(".p-nav__btn").on("click", function () {
 	}, 850);
 });
 
-$(".load-text").fadeOut(5000, function () {
-	$(".loading").toggleClass("open"); //←ここだけ残せば初期使用でローディングと分離できる
-	// $(".p-header__ttl:nth-child(2)").css({ transform: "translateX(0%)", opacity: "1" });
-	// $(".p-header__ttl:nth-child(3)")
-	// 	.delay(30)
-	// 	.queue(function () {
-	// 		$(this).css({ transform: "translateX(0%)", opacity: "1" });
-	// 	});
-	// $(".p-header__ttl:nth-child(4)")
-	// 	.delay(40)
-	// 	.queue(function () {
-	// 		$(this).css({ transform: "translateX(0%)", opacity: "1" });
-	// 	});
-	// $(".p-header__ttl:nth-child(5)")
-	// 	.delay(50)
-	// 	.queue(function () {
-	// 		$(this).css({ transform: "translateX(0%)", opacity: "1" });
-	// 	});
+// $(".loading").fadeOut(15000, function () {
+// 
+// });
+
+$(".p-loading").delay(10000).queue(function (next) {
+	$(this).addClass("loaded");
+	next();
 });
 
+//ウェブブラウザに標準で搭載されいている戻るボタンを押したときもページをリロードする処理
 
 window.onpageshow = function (event) {
 	if (event.persisted) {
 		window.location.reload();
 	}
 };
+
+window.onpageshow = function () {
+	$(".p-front-page__gif").animate({ opacity: 0.8 }, { duration: 4000, easing: "swing" });
+	$(".p-nav").animate({ opacity: 1 }, { duration: 3500, easing: "swing" });
+};
+
+// window.onload = function () {
+// 	var ref = document.referrer;
+// 	var result = ref.match(/portfolio/);
+
+// 	if (!result) {
+// 		//含まれない場合の処理
+// 		$(".loading").fadeOut(15000, function () {
+		
+// 		});
+// 	} else {
+// 		//含まれる場合の処理
+// 		$(".loading").fadeOut(0, function () {
+		
+// 		});
+// 	}
+// };

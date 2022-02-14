@@ -4,7 +4,10 @@
 	display: flex;
 	justify-content: center;
 	margin: auto auto 0;
+	height: fit-content;
+
 	&__gif {
+		opacity: 0;
 		width: 90%;
 		@include bp.tab {
 			width: 100%;
