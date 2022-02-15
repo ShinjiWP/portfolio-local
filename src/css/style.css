@@ -585,7 +585,7 @@ body {
 }
 
 .c-button:hover span, .c-button--white:hover span, .c-button--red:hover span {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 2px, 0);
   opacity: 1;
 }
 
@@ -1037,7 +1037,7 @@ body {
 }
 .p-nav__btn {
   width: 100%;
-  padding: 0.5em 0;
+  padding: 0.4em 0;
   transition: 0.5s;
 }
 .p-nav__btn p {

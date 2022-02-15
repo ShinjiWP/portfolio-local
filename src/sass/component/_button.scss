@@ -74,7 +74,7 @@
 	opacity: 0;
 }
 .c-button:hover span {
-	transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 2px, 0);
 	opacity: 1;
 }
 .c-button:hover span:nth-child(1) {

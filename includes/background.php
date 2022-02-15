@@ -1,4 +1,7 @@
-<div id="particles-js-white"></div>
-<div id="particles-js-green"></div>
-<div id="particles-js-red"></div>
-<div id="content"></div>
+<?php wp_reset_query();
+if(is_front_page()){
+get_template_part('includes/opening');
+get_template_part('includes/background-parts');
+} elseif (is_page()){
+get_template_part('includes/background-parts');
+} ;?>
