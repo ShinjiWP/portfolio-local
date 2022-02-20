@@ -1,3 +1,5 @@
+@use "../global/font" as f;
+
 .snow-monkey-form {
 	margin: auto;
 	width: 90%;
@@ -10,5 +12,11 @@
 .smf-action .smf-button-control .smf-button-control__control {
 	padding-left: 2ch;
 	padding-right: 2ch;
+	font-family: f.$Roboto ;
 }
 
+
+//contactフォーム内テキストのフォント指定
+.smf-item__label__text{
+	font-family: f.$Roboto ;
+}

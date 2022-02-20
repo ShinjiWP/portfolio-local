@@ -1053,7 +1053,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   width: 65%;
-  max-width: 1300px;
+  max-width: 1000px;
   margin: auto;
   opacity: 0;
 }
@@ -1164,6 +1164,11 @@ body {
 .smf-action .smf-button-control .smf-button-control__control {
   padding-left: 2ch;
   padding-right: 2ch;
+  font-family: "Roboto", sans-serif;
+}
+
+.smf-item__label__text {
+  font-family: "Roboto", sans-serif;
 }
 
 .p-wrapper {

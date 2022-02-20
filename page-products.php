@@ -4,7 +4,7 @@ Template Name: products
 */
 ?>
 <?php get_header();?>
-
+<div id="content"></div>
 <div class="c-background--products"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">

@@ -5,6 +5,7 @@ Template Name: skill
 ?>
 
 <?php get_header();?>
+<div id="content"></div>
 <div class="c-background--skill"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">

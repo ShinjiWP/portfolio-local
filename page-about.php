@@ -5,6 +5,7 @@ Template Name: about
 ?>
 
 <?php get_header();?>
+<div id="content"></div>
 <div class="c-background--about"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">

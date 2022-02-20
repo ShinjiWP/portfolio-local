@@ -5,6 +5,7 @@ Template Name: contact
 ?>
 
 <?php get_header();?>
+<div id="content"></div>
 <div class="c-background--contact"></div>
 <div id="wrapper" class="p-wrapper">
   <div class="p-header--link">
