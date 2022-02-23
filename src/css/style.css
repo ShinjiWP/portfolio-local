@@ -629,6 +629,15 @@ body {
   right: 52px;
   z-index: 10;
   transition: 0.5s;
+  width: 14px;
+  height: 14px;
+}
+@media screen and (max-width: 649.9px) {
+  .c-dot {
+    width: 11px;
+    height: 11px;
+    right: 39px;
+  }
 }
 
 .js-filter {
@@ -671,10 +680,10 @@ body {
   fill: #0087be;
 }
 .c-icon--gulp {
-  fill: #e34f26;
+  fill: #e44849;
 }
-.c-icon--webpack {
-  stroke: #fff;
+.c-icon--adobe {
+  fill: #FB0F01;
 }
 
 .c-image {
@@ -781,6 +790,11 @@ body {
 }
 .c-text--ttl {
   font-size: 4rem;
+}
+@media screen and (max-width: 649.9px) {
+  .c-text--ttl {
+    font-size: 3rem;
+  }
 }
 .c-text--small, .c-text--link {
   font-size: 1rem;
@@ -1118,7 +1132,7 @@ body {
 
 .p-skill {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
   width: 80%;
   margin: auto;

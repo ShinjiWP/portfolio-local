@@ -1,5 +1,6 @@
 @use "../global/font" as f;
 @use "../global/color" as c;
+@use "../global/breakpoint" as bp;
 
 .c-text {
 	font-size: f.$text-normal;
@@ -9,6 +10,9 @@
 	&--ttl {
 		@extend .c-text;
 		font-size: f.$text-max;
+		@include bp.sp {
+			font-size: 3rem;
+		}
 	}
 
 	&--small {
