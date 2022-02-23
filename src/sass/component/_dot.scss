@@ -1,6 +1,15 @@
+@use "../global/breakpoint" as bp;
+
 .c-dot {
 	position: absolute;
 	right: 52px;
 	z-index: 10;
 	transition: 0.5s;
+	width: 14px;
+	height: 14px;
+	@include bp.sp {
+		width: 11px;
+		height: 11px;
+		right: 39px;
+		}
 }

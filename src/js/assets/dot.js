@@ -1,4 +1,4 @@
-gsap.set(".c-dot", { width: 14, height: 14, borderRadius: "20%", backgroundColor: "#00ff00" });
+gsap.set(".c-dot", { borderRadius: "20%", backgroundColor: "#00ff00" });
 
 const tl = gsap.timeline({ repeat: -1, repeatRefresh: true });
 
