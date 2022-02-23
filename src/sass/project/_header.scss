@@ -24,33 +24,20 @@
 	&__ttl--slide {
 		transform: translateX(100%);
 		animation: SlideIn 1s;
-		animation-delay: 0.5s;
 		animation-fill-mode: forwards;
 	}
 
 	&__ttl:nth-child(2) {
 		transform: translateX(100%);
-		// animation: SlideIn 1s;
-		// animation-delay: 1.5s;
-		// animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(3) {
 		transform: translateX(100%);
-		// animation: SlideIn 1s;
-		// animation-delay: 1.6s;
-		// animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(4) {
 		transform: translateX(100%);
-		// animation: SlideIn 1s;
-		// 	animation-delay: 1.7s;
-		// animation-fill-mode: forwards;
 	}
 	&__ttl:nth-child(5) {
 		transform: translateX(100%);
-		// animation: SlideIn 1s;
-		// 	animation-delay: 1.8s;
-		// animation-fill-mode: forwards;
 	}
 }
 
@@ -71,26 +58,33 @@
 }
 
 .js-header2 {
-	// transform: translateX(100%);
 	animation: SlideIn 1s;
-	animation-delay: 1.5s;
+	animation-delay: 0.5s;
 	animation-fill-mode: forwards;
 }
 
 .js-header3 {
 	animation: SlideIn 1s;
-	animation-delay: 1.6s;
+	animation-delay: 0.6s;
 	animation-fill-mode: forwards;
 }
 
 .js-header4 {
 	animation: SlideIn 1s;
-	animation-delay: 1.7s;
+	animation-delay: 0.7s;
 	animation-fill-mode: forwards;
 }
 
 .js-header5 {
 	animation: SlideIn 1s;
-	animation-delay: 1.8s;
+	animation-delay: 0.8s;
 	animation-fill-mode: forwards;
+}
+
+.page {
+	.p-header__ttl--slide {
+		transform: translateX(100%);
+		animation: SlideIn .2s;
+		animation-fill-mode: forwards;
+	}
 }

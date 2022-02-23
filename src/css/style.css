@@ -867,7 +867,7 @@ body {
 
 .p-footer {
   padding: 1rem 0 1rem 1rem;
-  height: 100px;
+  height: 85px;
 }
 
 .p-front-page {
@@ -912,8 +912,6 @@ body {
   transform: translateX(100%);
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -959,8 +957,8 @@ body {
 .js-header2 {
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -968,8 +966,8 @@ body {
 .js-header3 {
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -977,8 +975,8 @@ body {
 .js-header4 {
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 1.7s;
-          animation-delay: 1.7s;
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -986,8 +984,16 @@ body {
 .js-header5 {
   -webkit-animation: SlideIn 1s;
           animation: SlideIn 1s;
-  -webkit-animation-delay: 1.8s;
-          animation-delay: 1.8s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.page .p-header__ttl--slide {
+  transform: translateX(100%);
+  -webkit-animation: SlideIn 0.2s;
+          animation: SlideIn 0.2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
