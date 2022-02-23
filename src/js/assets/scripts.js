@@ -1,18 +1,4 @@
-// jQuery(".js-btn1").on("click",function () {
-// 	jQuery(".p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)").toggleClass("js-gray");
-// });
 
-// jQuery(".js-btn2").on("click",function () {
-// 	jQuery(".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)").toggleClass("js-gray");
-// });
-
-// jQuery(".js-btn3").on("click",function () {
-// 	jQuery(".p-header__ttl:nth-child(3),.p-header__ttl:nth-child(2),.p-header__ttl:nth-child(5)").toggleClass("js-gray");
-// });
-
-// jQuery(".js-btn4").on("click",function () {
-// 	jQuery(".p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(2)").toggleClass("js-gray");
-// });
 
 
 jQuery(".c-hover--btn1").on("mouseenter", function () {
@@ -72,15 +58,6 @@ jQuery(".p-nav__btn").on("click", function () {
 	}, 850);
 });
 
-// $(".loading").fadeOut(15000, function () {
-// 
-// });
-
-// $(".p-loading").delay(10000).queue(function (next) {
-// 	$(this).addClass("loaded");
-// 	next();
-// });
-
 //ウェブブラウザに標準で搭載されいている戻るボタンを押したときもページをリロードする処理
 
 window.onpageshow = function (event) {
@@ -89,10 +66,6 @@ window.onpageshow = function (event) {
 	}
 };
 
-// window.onpageshow = function () {
-// 	$(".p-front-page__gif").animate({ opacity: 0.8 }, { duration: 4000, easing: "swing" });
-// 	$(".p-nav").animate({ opacity: 1 }, { duration: 3500, easing: "swing" });
-// };
 
 window.onload = function () {
 	var ref = document.referrer;
