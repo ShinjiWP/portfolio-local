@@ -59,12 +59,12 @@
 	position: absolute;
 	display: inline-block;
 	width: 100%;
-	top: 0;
+	top: 50%;
 	left: 0;
 	font-weight: 700;
 	letter-spacing: 0.12em;
 	content: attr(data-hover);
-	padding: 0.5em 4em;
+	transform: translateY(-45%);
 	transition: transform 0.4s, opacity 0.4s;
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	box-sizing: border-box;
