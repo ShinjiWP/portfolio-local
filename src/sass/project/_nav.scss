@@ -1,5 +1,6 @@
 @use "../global/font" as f;
 @use "../global/color" as c;
+@use "../global/breakpoint" as bp;
 
 .p-nav {
 	display: grid;
@@ -33,5 +34,13 @@
 		width: 24%;
 		max-width: 200px;
 		margin: 0 auto;
+	}
+}
+
+.page {
+	.p-nav__btn p {
+		@include bp.sp {
+			font-size: 0.65rem;
+		}
 	}
 }
