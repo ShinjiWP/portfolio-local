@@ -7,7 +7,7 @@
 		z-index: -1;
 		background-repeat: no-repeat;
 		background-size: contain;
-		overflow: hidden
+		overflow: hidden;
 	}
 	&--contact {
 		@extend .c-background--products;
@@ -28,7 +28,7 @@
 		width: 100%;
 		opacity: 0.3;
 	}
-	&--error{
+	&--error {
 		background-color: black;
 	}
 }
@@ -38,10 +38,10 @@
 }
 @keyframes rotate-anime {
 	0% {
-		transform: rotate(0);
+		transform: translate(-50%, -50%) rotate(0);
 	}
 	100% {
-		transform: rotate(360deg);
+		transform: translate(-50%, -50%) rotate(360deg);
 	}
 }
 
@@ -63,7 +63,10 @@ body {
 	z-index: -1; /*描画を一番下に*/
 	width: 100%;
 	height: 100%;
-	background-color: #000; /*背景色*/
+	// background-color: #000; /*背景色*/
+  background: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+  background-blend-mode: multiply;
 }
 
 #particles-js-red {
