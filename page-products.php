@@ -22,22 +22,22 @@ Template Name: products
 	if( $wp_query->have_posts() ): while( $wp_query->have_posts() ) : $wp_query->the_post();
 ?>
 
-    <a class="c-text--link" href="<?php echo get_field('url'); ?>">
-      <div class="p-products__item">
-        <div class=" c-square p-products__link">
+    <div class="p-products__item">
+      <div class=" c-square p-products__link">
 
-          <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
+        <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
 
+        <a class="c-text--link" href="<?php echo get_field('url'); ?>">
           <div class="c-square--bottom p-products__description">
             <h2 class="c-head--products"><?php the_title(); ?></h2>
             <?php the_content();?>
           </div>
+        </a>
 
-        </div>
       </div>
+    </div>
 
-      <?php endwhile; endif; wp_reset_postdata(); ?>
-    </a>
+    <?php endwhile; endif; wp_reset_postdata(); ?>
   </div>
 
   <?php get_template_part('includes/pager');?>

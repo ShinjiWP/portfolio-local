@@ -810,6 +810,8 @@ body {
 .c-text--link {
   color: #707070;
   text-align: justify;
+  grid-area: products;
+  position: relative;
 }
 
 .p-about {
@@ -1144,6 +1146,8 @@ body {
   margin: auto auto 0;
   padding: 1rem;
   background-color: #fff;
+  position: absolute;
+  bottom: 0;
 }
 
 .p-skill {
