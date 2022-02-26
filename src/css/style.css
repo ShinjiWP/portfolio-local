@@ -404,7 +404,7 @@ p {
   background-color: black;
 }
 
-.c-image--circle {
+.c-animation-circle {
   -webkit-animation: rotate-anime 200s linear infinite;
           animation: rotate-anime 200s linear infinite;
 }
@@ -696,12 +696,6 @@ body {
   width: 100%;
 }
 
-.c-image--circle {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-}
-
 @-webkit-keyframes open {
   0% {
     opacity: 0.5;
@@ -877,6 +871,7 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  position: relative;
 }
 .p-front-page__gif {
   opacity: 0;
@@ -886,6 +881,15 @@ body {
   .p-front-page__gif {
     width: 100%;
   }
+}
+.p-front-page__circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  width: 90%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
 }
 
 .p-header, .p-header--link {

@@ -1,7 +1,5 @@
 <?php get_header();?>
 
-<div class="c-background--circle"><img class="c-image--circle"
-    src="<?php echo get_theme_file_uri('/src/image/png/circle.png');?>" alt=""></div>
 <div id="wrapper" class="p-wrapper">
   <div class="c-grid__head p-header">
     <div class="p-line"></div>
@@ -13,6 +11,8 @@
 
 
   <div class="p-front-page">
+    <img class="c-animation-circle p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle.png');?>" alt="">
     <img class="p-front-page__gif" src=" <?php echo get_theme_file_uri('/src/image/gif/portfolio.gif');?>" alt="">
   </div>
   <div class="p-nav">
