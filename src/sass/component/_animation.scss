@@ -1,0 +1,35 @@
+.c-animation--forward-rotation {
+	animation: forward-rotate 200s linear infinite;
+}
+@keyframes forward-rotate {
+	0% {
+		transform: translate(-50%, -50%) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+.c-animation--back-rotation {
+	animation: back-rotate 180s linear infinite;
+}
+@keyframes back-rotate {
+	0% {
+		transform: translate(-50%, -50%) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(-360deg);
+	}
+}
+
+.c-animation--text-rotation {
+	animation: text-rotate 160s linear infinite;
+}
+@keyframes text-rotate {
+	0% {
+		transform: translate(-50%, -50%) rotate(0);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}

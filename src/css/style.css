@@ -375,6 +375,72 @@ p {
   margin: 0;
 }
 
+.c-animation--forward-rotation {
+  -webkit-animation: forward-rotate 200s linear infinite;
+          animation: forward-rotate 200s linear infinite;
+}
+
+@-webkit-keyframes forward-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes forward-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.c-animation--back-rotation {
+  -webkit-animation: back-rotate 180s linear infinite;
+          animation: back-rotate 180s linear infinite;
+}
+
+@-webkit-keyframes back-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes back-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+.c-animation--text-rotation {
+  -webkit-animation: text-rotate 160s linear infinite;
+          animation: text-rotate 160s linear infinite;
+}
+
+@-webkit-keyframes text-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes text-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 .c-background--products, .c-background--circle, .c-background--skill, .c-background--about, .c-background--contact {
   background-image: url(../image/png/products.png);
   width: 50%;
@@ -404,28 +470,6 @@ p {
   background-color: black;
 }
 
-.c-animation-circle {
-  -webkit-animation: rotate-anime 200s linear infinite;
-          animation: rotate-anime 200s linear infinite;
-}
-
-@-webkit-keyframes rotate-anime {
-  0% {
-    transform: translate(-50%, -50%) rotate(0);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-
-@keyframes rotate-anime {
-  0% {
-    transform: translate(-50%, -50%) rotate(0);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
 html,
 body {
   height: 100%;

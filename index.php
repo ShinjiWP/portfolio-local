@@ -11,8 +11,12 @@
 
 
   <div class="p-front-page">
-    <img class="c-animation-circle p-front-page__circle"
-      src="<?php echo get_theme_file_uri('/src/image/png/circle.png');?>" alt="">
+    <img class="c-animation--forward-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-out.png');?>" alt="">
+    <img class="c-animation--back-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-in.png');?>" alt="">
+    <img class="c-animation--text-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-text.png');?>" alt="">
     <img class="p-front-page__gif" src=" <?php echo get_theme_file_uri('/src/image/gif/portfolio.gif');?>" alt="">
   </div>
   <div class="p-nav">

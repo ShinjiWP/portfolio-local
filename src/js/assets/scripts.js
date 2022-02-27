@@ -83,7 +83,7 @@ window.onload = function () {
 				$(".p-header__ttl:nth-child(4)").addClass("js-header4");
 				$(".p-header__ttl:nth-child(5)").addClass("js-header5");
 				$(".p-front-page__gif").animate({ opacity: 1 }, { duration: 4000, easing: "swing" });
-				$(".p-front-page__circle").animate({ opacity: 1 }, { duration: 4000, easing: "swing" });
+				$(".p-front-page__circle").animate({ opacity: .3 }, { duration: 4000, easing: "swing" });
 				$(".p-nav").animate({ opacity: 1 }, { duration: 3500, easing: "swing" });
 				next();
 			});
@@ -96,7 +96,7 @@ window.onload = function () {
 		$(".p-header__ttl:nth-child(4)").addClass("js-header4");
 		$(".p-header__ttl:nth-child(5)").addClass("js-header5");
 		$(".p-front-page__gif").animate({ opacity: 1 }, { duration: 4000, easing: "swing" });
-		$(".p-front-page__circle").animate({ opacity: 1 }, { duration: 4000, easing: "swing" });
+		$(".p-front-page__circle").animate({ opacity: .3 }, { duration: 4000, easing: "swing" });
 		$(".p-nav").animate({ opacity: 1 }, { duration: 3500, easing: "swing" });
 	}
 };
