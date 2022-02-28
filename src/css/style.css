@@ -376,8 +376,8 @@ p {
 }
 
 .c-animation--forward-rotation {
-  -webkit-animation: forward-rotate 200s linear infinite;
-          animation: forward-rotate 200s linear infinite;
+  -webkit-animation: forward-rotate 160s linear infinite;
+          animation: forward-rotate 160s linear infinite;
 }
 
 @-webkit-keyframes forward-rotate {
@@ -398,8 +398,8 @@ p {
   }
 }
 .c-animation--back-rotation {
-  -webkit-animation: back-rotate 180s linear infinite;
-          animation: back-rotate 180s linear infinite;
+  -webkit-animation: back-rotate 120s linear infinite;
+          animation: back-rotate 120s linear infinite;
 }
 
 @-webkit-keyframes back-rotate {
@@ -420,8 +420,8 @@ p {
   }
 }
 .c-animation--text-rotation {
-  -webkit-animation: text-rotate 160s linear infinite;
-          animation: text-rotate 160s linear infinite;
+  -webkit-animation: text-rotate 50s linear infinite;
+          animation: text-rotate 50s linear infinite;
 }
 
 @-webkit-keyframes text-rotate {
@@ -439,6 +439,72 @@ p {
   }
   100% {
     transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.c-animation--inner-rotation {
+  -webkit-animation: inner-rotate 25s linear infinite;
+          animation: inner-rotate 25s linear infinite;
+}
+
+@-webkit-keyframes inner-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes inner-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+.c-animation--inner2-rotation {
+  -webkit-animation: inner2-rotate 20s linear infinite;
+          animation: inner2-rotate 20s linear infinite;
+}
+
+@-webkit-keyframes inner2-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes inner2-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.c-animation--inner3-rotation {
+  -webkit-animation: inner3-rotate 10s linear infinite;
+          animation: inner3-rotate 10s linear infinite;
+}
+
+@-webkit-keyframes inner3-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes inner3-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 .c-background--products, .c-background--circle, .c-background--skill, .c-background--about, .c-background--contact {
