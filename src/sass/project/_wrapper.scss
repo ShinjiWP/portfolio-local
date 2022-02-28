@@ -7,3 +7,10 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+.home {
+	.p-wrapper {
+		@extend .p-wrapper;
+		overflow: hidden;
+	}
+}

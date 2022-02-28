@@ -429,7 +429,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 
@@ -438,7 +438,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 .c-animation--inner-rotation {
@@ -451,7 +451,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
@@ -460,7 +460,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 .c-animation--inner2-rotation {
@@ -473,7 +473,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 
@@ -482,7 +482,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
 .c-animation--inner3-rotation {
@@ -495,7 +495,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 
@@ -504,7 +504,7 @@ p {
     transform: translate(-50%, -50%) rotate(0);
   }
   100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
   }
 }
 .c-background--products, .c-background--circle, .c-background--skill, .c-background--about, .c-background--contact {
@@ -806,80 +806,6 @@ body {
   width: 100%;
 }
 
-@-webkit-keyframes open {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes open {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-.load-text {
-  /*対象のテキスト*/
-  position: relative;
-  top: 50%;
-  width: 5em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
-}
-
-.anim-typewriter {
-  /*アニメーションセッティング*/
-  -webkit-animation: typewriter 1s steps(9) 1.5s 1 normal both, blinkTextCursor 500ms steps(9) infinite normal;
-          animation: typewriter 1s steps(9) 1.5s 1 normal both, blinkTextCursor 500ms steps(9) infinite normal;
-}
-
-@-webkit-keyframes typewriter {
-  /*タイプライターライクなアニメーション*/
-  from {
-    width: 0;
-  }
-  to {
-    width: 5em;
-  }
-}
-
-@keyframes typewriter {
-  /*タイプライターライクなアニメーション*/
-  from {
-    width: 0;
-  }
-  to {
-    width: 5em;
-  }
-}
-@-webkit-keyframes blinkTextCursor {
-  /*点滅するカーソルのアニメーション*/
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-@keyframes blinkTextCursor {
-  /*点滅するカーソルのアニメーション*/
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
 .c-square {
   border-radius: 10px;
 }
@@ -1315,7 +1241,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.p-wrapper {
+.p-wrapper, .home .p-wrapper {
   height: 100%;
   overflow-x: hidden;
   position: relative;
@@ -1323,5 +1249,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.home .p-wrapper {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
