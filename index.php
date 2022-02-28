@@ -17,7 +17,13 @@
       src="<?php echo get_theme_file_uri('/src/image/png/circle-in.png');?>" alt="">
     <img class="c-animation--text-rotation p-front-page__circle"
       src="<?php echo get_theme_file_uri('/src/image/png/circle-text.png');?>" alt="">
-    <img class="p-front-page__gif" src=" <?php echo get_theme_file_uri('/src/image/gif/portfolio.gif');?>" alt="">
+    <img class="c-animation--inner-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-inner.png');?>" alt="">
+    <img class="c-animation--inner2-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-inner2.png');?>" alt="">
+    <img class="c-animation--inner3-rotation p-front-page__circle"
+      src="<?php echo get_theme_file_uri('/src/image/png/circle-inner3.png');?>" alt="">
+    <img class="p-front-page__gif" src=" <?php echo get_theme_file_uri('/src/image/gif/trigger.gif');?>" alt="">
   </div>
   <div class="p-nav">
     <a data-hover="Products" class="c-text--weight c-square c-button js-btn1 p-nav__btn"
