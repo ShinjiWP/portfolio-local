@@ -1,7 +1,9 @@
 /*ブレイクポイントを指定*/
 // $pc: 1300px;
-$tab: 650px;
-$sp: 649.9px;
+$sp: 519.9px;
+$tab: 520px;
+$products:670px;
+$pc:960px;
 
 @mixin sp {
   @media screen and(max-width:($sp)) {
@@ -15,8 +17,14 @@ $sp: 649.9px;
 	}
 }
 
-// @mixin pc {
-//   @media screen and (min-width: ($pc)) {
-//     @content;
-//   }
-// }
+@mixin products {
+  @media screen and (min-width: ($products)) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}

@@ -24,11 +24,12 @@ Template Name: products
 
     <div class="p-products__item">
       <div class=" c-square p-products__link">
+        <div class="p-products__thumbnail">
+          <?php the_post_thumbnail('large', array("class" => "p-products__thumbnail__image")) ;?>
+        </div>
 
-        <?php the_post_thumbnail('thumbnail', array("class" => "p-products__thumbnail")) ;?>
-
-        <a class="c-text--link" href="<?php echo get_field('url'); ?>">
-          <div class="c-square--bottom p-products__description">
+        <a class="c-text--link p-products__link__box" href="<?php echo get_field('url'); ?>">
+          <div class="p-products__description">
             <h2 class="c-head--products"><?php the_title(); ?></h2>
             <?php the_content();?>
           </div>

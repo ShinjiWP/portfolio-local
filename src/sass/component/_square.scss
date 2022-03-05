@@ -1,6 +1,6 @@
 .c-square{
   border-radius: 10px;
-  &--bottom{
-    border-radius: 0 0 10px 10px;
+  &--right{
+    border-radius: 0 10px 10px 0;
   }
 }
