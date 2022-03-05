@@ -40,8 +40,10 @@
 	&--link {
 		@extend .c-text--small;
 		color: c.$font-gray;
-		text-align: justify;
+		// text-align: justify;
 		grid-area: products;
 		position: relative;
 	}
+
+	
 }
