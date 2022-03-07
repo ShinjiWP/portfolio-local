@@ -1163,21 +1163,22 @@ body {
 
 .p-products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   width: 80%;
   margin: auto;
 }
 @media screen and (min-width: 520px) {
   .p-products {
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 720px;
+    width: 95%;
   }
 }
 @media screen and (min-width: 960px) {
   .p-products {
-    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-    max-width: 2000px;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    max-width: 1620px;
   }
 }
 .p-products__link {
@@ -1189,6 +1190,12 @@ body {
   margin: auto;
 }
 @media screen and (min-width: 520px) {
+  .p-products__link {
+    height: 700px;
+    max-width: 370px;
+  }
+}
+@media screen and (min-width: 960px) {
   .p-products__link {
     height: 350px;
     max-width: 800px;
@@ -1239,13 +1246,6 @@ body {
   height: 280px;
   padding: 10px;
 }
-@media screen and (min-width: 520px) {
-  .p-products__thumbnail {
-    width: calc(100% - 230px);
-    height: 100%;
-    padding: 0 10px;
-  }
-}
 @media screen and (min-width: 960px) {
   .p-products__thumbnail {
     width: calc(100% - 280px);
@@ -1259,12 +1259,6 @@ body {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-}
-@media screen and (min-width: 520px) {
-  .p-products__thumbnail__image {
-    height: 350px;
-    width: 100%;
-  }
 }
 @media screen and (min-width: 960px) {
   .p-products__thumbnail__image {
@@ -1281,12 +1275,13 @@ body {
   bottom: 0;
   overflow: hidden;
   border-radius: 0 0 10px 10px;
+  width: 100%;
+  min-height: 200px;
 }
 @media screen and (min-width: 520px) {
   .p-products__description {
-    width: 230px;
-    right: 0;
-    height: 100%;
+    width: 100%;
+    height: 300px;
     border-radius: 0 10px 10px 0;
   }
 }

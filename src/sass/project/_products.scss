@@ -2,19 +2,20 @@
 
 .p-products {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 20px;
 	width: 80%;
 	margin: auto;
 
 	@include bp.tab {
-		grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-		width: 90%;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		max-width: 720px;
+		width: 95%;
 	}
 
 	@include bp.pc {
-		grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
-		max-width: 2000px;
+		grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+		max-width: 1620px;
 	}
 
 	&__link {
@@ -26,11 +27,13 @@
 		margin: auto;
 
 		@include bp.tab {
-			height: 350px;
-			max-width: 800px;
+			height: 700px;
+			max-width: 370px;
 		}
 
 		@include bp.pc {
+			height: 350px;
+			max-width: 800px;
 		}
 
 		&__box {
@@ -85,11 +88,11 @@
 		height: 280px;
 		padding: 10px;
 
-		@include bp.tab {
-			width: calc(100% - 230px);
-			height: 100%;
-			padding: 0 10px;
-		}
+		// @include bp.tab {
+		// 	width: calc(100% - 230px);
+		// 	height: 100%;
+		// 	padding: 0 10px;
+		// }
 
 		@include bp.pc {
 			width: calc(100% - 280px);
@@ -103,10 +106,10 @@
 			width: 100%;
 			object-fit: contain;
 
-			@include bp.tab {
-				height: 350px;
-				width: 100%;
-			}
+			// @include bp.tab {
+			// 	height: 350px;
+			// 	width: 100%;
+			// }
 
 			@include bp.pc {
 				height: 350px;
@@ -124,16 +127,13 @@
 		bottom: 0;
 		overflow: hidden;
 		border-radius: 0 0 10px 10px;
+		width: 100%;
+		min-height: 200px;
 
 		@include bp.tab {
-			width: 230px;
-			right: 0;
-			height: 100%;
+			width: 100%;
+			height: 300px;
 			border-radius: 0 10px 10px 0;
-		}
-
-		@include bp.products{
-
 		}
 
 		@include bp.pc {

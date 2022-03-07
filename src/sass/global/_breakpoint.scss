@@ -2,7 +2,6 @@
 // $pc: 1300px;
 $sp: 519.9px;
 $tab: 520px;
-$products:670px;
 $pc:960px;
 
 @mixin sp {
@@ -17,11 +16,6 @@ $pc:960px;
 	}
 }
 
-@mixin products {
-  @media screen and (min-width: ($products)) {
-    @content;
-  }
-}
 
 @mixin pc {
   @media screen and (min-width: ($pc)) {
