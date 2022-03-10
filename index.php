@@ -1,7 +1,8 @@
 <?php get_header();?>
 
 <div id="wrapper" class="p-wrapper">
-  <div class="c-grid__head p-header">
+
+  <div class="p-header">
     <div class="p-line"></div>
     <p class="c-text--ttl c-head p-header__ttl"><span>P</span>roducts&thinsp;</p>
     <p class="c-text--ttl c-head p-header__ttl">Contact&thinsp;</p>

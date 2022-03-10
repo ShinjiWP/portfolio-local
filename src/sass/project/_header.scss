@@ -21,11 +21,11 @@
 }
 
 .p-header {
-	&__ttl--slide {
-		transform: translateX(100%);
-		animation: SlideIn 1s;
-		animation-fill-mode: forwards;
-	}
+	// &__ttl--slide {
+	// 	transform: translateX(100%);
+	// 	animation: SlideIn 1s;
+	// 	animation-fill-mode: forwards;
+	// }
 
 	&__ttl:nth-child(2) {
 		transform: translateX(100%);
@@ -84,7 +84,7 @@
 .page {
 	.p-header__ttl--slide {
 		transform: translateX(100%);
-		animation: SlideIn .2s;
+		animation: SlideIn 0.2s;
 		animation-fill-mode: forwards;
 	}
 }
