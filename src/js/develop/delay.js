@@ -1,4 +1,4 @@
-jQuery(".p-nav__btn").on("click", function () {
+jQuery(".p-nav__btn, .js-ttl").on("click", function () {
 	event.preventDefault();
 	var link = $(this).attr("href");
 	setTimeout(function () {

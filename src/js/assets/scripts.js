@@ -1,7 +1,7 @@
 
 
 
-jQuery(".c-hover--btn1").on("mouseenter", function () {
+jQuery(".c-hover--btn1,.js-ttl-1").on("mouseenter", function () {
 	jQuery(
 		".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)"
 	).removeClass("js-gray");
@@ -10,7 +10,7 @@ jQuery(".c-hover--btn1").on("mouseenter", function () {
 	jQuery(".js-btn2, .js-btn3, .js-btn4").toggleClass("js-filter");
 });
 
-jQuery(".c-hover--btn2").on("mouseenter", function () {
+jQuery(".c-hover--btn2 ,.js-ttl-2").on("mouseenter", function () {
 	jQuery(
 		".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)"
 	).removeClass("js-gray");
@@ -20,7 +20,7 @@ jQuery(".c-hover--btn2").on("mouseenter", function () {
 	jQuery(".js-btn1, .js-btn3, .js-btn4").toggleClass("js-filter");
 });
 
-jQuery(".c-hover--btn3").on("mouseenter", function () {
+jQuery(".c-hover--btn3 ,.js-ttl-3").on("mouseenter", function () {
 	jQuery(
 		".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)"
 	).removeClass("js-gray");
@@ -30,7 +30,7 @@ jQuery(".c-hover--btn3").on("mouseenter", function () {
 	jQuery(".js-btn2, .js-btn1, .js-btn4").toggleClass("js-filter");
 });
 
-jQuery(".c-hover--btn4").on("mouseenter", function () {
+jQuery(".c-hover--btn4 ,.js-ttl-4").on("mouseenter", function () {
 	jQuery(
 		".p-header__ttl:nth-child(2),.p-header__ttl:nth-child(3),.p-header__ttl:nth-child(4),.p-header__ttl:nth-child(5)"
 	).removeClass("js-gray");
@@ -91,7 +91,7 @@ if (splash_text != myYear + myMonth + myDate) {
 	$(".p-nav").animate({ opacity: 1 }, { duration: 3500, easing: "swing" }); //同日2回目のアクセスでローディング画面非表示
 }
 
-jQuery(".p-nav__btn").on("click", function () {
+jQuery(".p-nav__btn, .js-ttl").on("click", function () {
 	event.preventDefault();
 	var link = $(this).attr("href");
 	setTimeout(function () {

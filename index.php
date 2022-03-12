@@ -4,10 +4,19 @@
 
   <div class="p-header">
     <div class="p-line"></div>
-    <p class="c-text--ttl c-head p-header__ttl"><span>P</span>roducts&thinsp;</p>
-    <p class="c-text--ttl c-head p-header__ttl">Contact&thinsp;</p>
-    <p class="c-text--ttl c-head p-header__ttl">About&thinsp;</p>
-    <p class="c-text--ttl c-head p-header__ttl"><span class="c-dot"></span>Skill&thinsp;</p>
+    <p class="c-text--ttl c-head p-header__ttl">
+      <span>P</span>roducts&thinsp;
+      <a class="js-ttl js-ttl-1 js-btn1" href="<?php the_permalink(58); ?>"></a>
+    </p>
+    <p class=" c-text--ttl c-head p-header__ttl">Contact&thinsp;
+      <a class="js-ttl js-ttl-2 js-btn2" href="<?php the_permalink(54); ?>"></a>
+    </p>
+    <p class="c-text--ttl c-head p-header__ttl">About&thinsp;
+      <a class="js-ttl js-ttl-3 js-btn3" href="<?php the_permalink(48); ?>"></a>
+    </p>
+    <p class="c-text--ttl c-head p-header__ttl"><span class="c-dot"></span>Skill&thinsp;
+      <a class="js-ttl js-ttl-4 js-btn4" href="<?php the_permalink(16); ?>"></a>
+    </p>
   </div>
 
 
